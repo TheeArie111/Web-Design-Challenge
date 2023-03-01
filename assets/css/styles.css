@@ -1,7 +1,23 @@
 /*     Add Your Styles Here    */
 body {
-    background: #c21b1b;
+    background-color: blue;
+    color: red;
 }
+
+.box {
+    height: 400px;
+    padding: 20px;
+    color: #ffffff;
+    background: deepskyblue;
+}
+
+.col-sm-8 {
+    color: red;
+}
+  
+
+
+
 
 h1 {
     font-size: 80px;
