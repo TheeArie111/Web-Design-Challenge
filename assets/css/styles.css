@@ -1,22 +1,90 @@
 /*     Add Your Styles Here    */
 body {
-    background-color: grey;
-    color: red;
+    background-color: silver;
 }
+/* ###################### Navigation bar######################  */
+
 .navbar {
-    background: white
+    background: white;
+    font-family: "Gill Sans", sans-serif;
+    font-size: small;
+    color:black;
 }
 .navbar-brand {
-    color:#ffffff;
-    background-color: teal;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-weight: 600;
 }
-.box {
-    height: 400px;
-    padding: 20px;
-    color: #ffffff;
-    background: deepskyblue;
+#navbarDropdown {
+    color:#286090;
 }
 
+/* ###################### Navigation bar ###################### */
+
+/* ###################### Landing Page ###################### */
+.main_header {
+    font-size: 30px;
+    font-family: Georgia, serif;
+    font-weight: 800;
+    color: teal;
+}
+.col-sm-6 {
+    background-color: white;
+    color: black;
+    font-family: "Gill Sans", sans-serif;
+    font-size: medium;
+}
+.col-md-12 {
+    background-color: black;
+}
+
+/* ###################### Landing Page ###################### */
+
+/* ###################### Visualization Side Bar ###################### */
+.sidebar_header {
+    font-size: 25px;
+    font-family: Georgia, serif;
+    font-weight: 800;
+    color: teal;
+}
+.col-sm-4 {
+    background-color: white;
+}
+
+
+
+
+/* ###################### Visualization Side Bar ###################### */
+
+/* ###################### Visualizations ###################### */
+
+
+
+
+
+/* ###################### Visualizations ###################### */
+
+/* ###################### Comparisons ###################### */
+
+
+
+
+
+/* ###################### Comparisons ###################### */
+
+/* ###################### Data ###################### */
+
+
+
+
+
+/* ###################### Data ###################### */
+
+
+
+
+
+/*
 .col-sm-7 {
     color: red;
     background-color: white;
@@ -39,4 +107,4 @@ h2 {
 }
 h3 {
     font-size: 30px;
-}
+}*/
