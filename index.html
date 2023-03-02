@@ -6,14 +6,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Module 11 Challenge</title>
     
     <!-- Bring in our bootstrap stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    
     <link rel="stylesheet" type= "text/css" href="./assets/css/styles.css">
 
-    <title>Module 11 Challenge</title>
+    
 </head>
 
 <!-- The landing page must contain:
@@ -56,9 +58,9 @@
 <!-- This is where the project summary will go  -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-7">
                 <header class="main_header">
-                    <h1>Weather Summery: Latitude vs. X</h1>
+                    <h1>Weather Summary: Latitude vs. X</h1>
                 </header>
                 <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
                 To accomplish this analysis, we pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
@@ -69,54 +71,41 @@
                 as well as explanations and descriptions of any trends and correlations witnessed. 
                 </p>
             </div>
+            <!-----------------a space----------------------->
+            <div class="col-sm-1">
+            
+            </div>
+            <!------------------a space---------------------->
+            <!-- Four Visualization Pages:
+    A descriptive title and header tag
+    The viz, regular sized
+    a paragraph describing the viz and it's significance
+    A side bar section with smaller versions of all four (links to respective pages)-->
             <div class="col-sm-4">
                 <header class="sidebar_header">
                     <h2>Visualizations</h2>
                 </header>
                 <div class="container">
                     <div class="row">
-                        <div class="col-6"><a href="#"><img src="./assets/images/temp.png" alt="Max Temperature" class="img-thumbnail"></a></div>
-                        <div class="col-6"><a href="#"><img src="./assets/images/cloud.png" alt="Cloudiness" class="img-thumbnail"></a></div>
+                        <div class="col-6"><a href="./visualizations/temp.html"><img src="./assets/images/temp.png" alt="Max Temperature" class="img-thumbnail"></a></div>
+                        <div class="col-6"><a href="./visualizations/cloudiness.html"><img src="./assets/images/cloud.png" alt="Cloudiness" class="img-thumbnail"></a></div>
                       
                         <!-- Force next columns to break to new line at md breakpoint and up -->
                         <div class="w-100 d-none d-md-block"></div>
                       
-                        <div class="col-6"><a href="#"><img src="./assets/images/hum.png" alt="Humidity" class="img-thumbnail"></a></div>
-                        <div class="col-6"><a href="#"><img src="./assets/images/ws.png" alt="Wind Speed" class="img-thumbnail"></a></div>
+                        <div class="col-6"><a href="./visualizations/humidity.html"><img src="./assets/images/hum.png" alt="Humidity" class="img-thumbnail"></a></div>
+                        <div class="col-6"><a href="./visualizations/wind.html"><img src="./assets/images/ws.png" alt="Wind Speed" class="img-thumbnail"></a></div>
                     </div>
                 </div>
             </div>
-            <!--There needs to be some kind of padding between, and it will become horizontal when the screen gets small-->
         </div>
     </div>
 
 
-<!--
-        <header class="main_header">
-            <h1>Weather Summary: Latitude vs. X</h1>
-        </header>
-        <main>
-            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
-                To accomplish this analysis, we pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                <br><br>
-                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. Latitude. 
-                Factors we examined included temperature, humidity, cloudiness, and wind speed. 
-                This site provides the source data, the visualizations created as part of the analysis, 
-                as well as explanations and descriptions of any trends and correlations witnessed. 
-            </p>
-        </main>  
--->   
-
-    
 
 
 
 
-<!-- Four Visualization Pages:
-    A descriptive title and header tag
-    The viz, regular sized
-    a paragraph describing the viz and it's significance
-    A side bar section with smaller versions of all four (links to respective pages)-->
 
 
    
