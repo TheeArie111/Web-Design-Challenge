@@ -36,6 +36,8 @@ After assembling the dataset, we used Matplotlib to plot various aspects of the 
 
 # Data Page
 * CSV data correctly loaded
+![](assets/images/DataPagepy.jpg)
+
 * Use Bootstrap table class(es)
 * Responsive based on page size
 * all 10 columns in dataset
