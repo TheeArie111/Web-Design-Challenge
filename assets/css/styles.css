@@ -1,9 +1,15 @@
 /*     Add Your Styles Here    */
 body {
-    background-color: blue;
+    background-color: grey;
     color: red;
 }
-
+.navbar {
+    background: white
+}
+.navbar-brand {
+    color:#ffffff;
+    background-color: teal;
+}
 .box {
     height: 400px;
     padding: 20px;
@@ -13,17 +19,24 @@ body {
 
 .col-sm-8 {
     color: red;
+    background-color: white;
+}
+.col-sm-4 {
+    color: black;
+    background-color: aqua;
+
 }
   
-
-
-
-
-h1 {
-    font-size: 80px;
-
+.main_header {
+    font-size: 40;
 }
 
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 35px;
+}
 h3 {
     font-size: 30px;
 }
