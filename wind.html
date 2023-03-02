@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+
+<!--Comment-->
+
 <head>
-
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    
     <title>Wind Speed</title>
     
     <!-- Bring in our bootstrap stylesheet -->
@@ -16,52 +18,47 @@
     
 </head>
 
-<body>
-    <!-- Start of navbar -->
-    <div class="container">
-      <nav class="navbar navbar-expand-md navbar-light">
-          <span class="navbar-brand mb-0 h1">Latitude</span>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
-              <ul class="navbar-nav">
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="./visualizations/temp.html">Max Temperature</a>
-                              <a class="dropdown-item" href="./visualizations/humidity.html">Humidity</a>
-                              <a class="dropdown-item" href="./visualizations/cloudiness.html">Cloudiness</a>
-                              <a class="dropdown-item" href="./visualizations/wind.html">Wind Speed</a>
-                          </div>
-                  </li>
-                  <li class="nav-item">
-                      <a href="./comparison.html">Comparison</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="./data.html">Data</a>
-                  </li>
-              </ul>
-          </div>
-      </nav>
-  </div> 
-    <!-- End of navbar -->
 
-    <!-- Start of container -->
-  <div class="container">
+<body>
+    
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <span class="navbar-brand mb-0 h1">Latitude</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="./temp.html">Max Temperature</a>
+                                <a class="dropdown-item" href="./humidity.html">Humidity</a>
+                                <a class="dropdown-item" href="./cloudiness.html">Cloudiness</a>
+                                <a class="dropdown-item" href="./wind.html">Wind Speed</a>
+                            </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./comparison.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div> 
+<!-- This is where the project summary will go  -->
+    <div class="container">
         <div class="row">
             <div class="col-sm-7">
                 <header class="main_header">
-                    <h1>Weather Summary: Latitude vs. X</h1>
+                    <h1>Wind Speed</h1>
                 </header>
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+                <img src="./assets/images/ws.png" class="img-fluid" alt="Responsive image">
+                <p>.....Something about the Wind Speed vs latitude data............The purpose of this project was to analyze how weather changes as you get closer to the equator. 
                 To accomplish this analysis, we pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                <br><br>
-                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. Latitude. 
-                Factors we examined included temperature, humidity, cloudiness, and wind speed. 
-                This site provides the source data, the visualizations created as part of the analysis, 
-                as well as explanations and descriptions of any trends and correlations witnessed. 
                 </p>
             </div>
             <!-----------------a space----------------------->
@@ -69,9 +66,15 @@
             
             </div>
             <!------------------a space---------------------->
-            
-          <!-- Start of Visualizations imageNav Area -->
-          <div class="col-sm-4">
+    
+            <!-- Four Visualization Pages:
+    A descriptive title and header tag
+    The viz, regular sized
+    a paragraph describing the viz and it's significance
+    A side bar section with smaller versions of all four (links to respective pages)-->
+    
+        
+        <div class="col-sm-4">
             <header class="sidebar_header">
                 <h2>Visualizations</h2>
             </header>
@@ -79,20 +82,50 @@
                 <div class="row">
                     <div class="col-6"><a href="./temp.html"><img src="./assets/images/temp.png" alt="Max Temperature" class="img-thumbnail"></a></div>
                     <div class="col-6"><a href="./cloudiness.html"><img src="./assets/images/cloud.png" alt="Cloudiness" class="img-thumbnail"></a></div>
-                  
-                    <!-- Force next columns to break to new line at md breakpoint and up -->
+                      
+                        <!-- Force next columns to break to new line at md breakpoint and up -->
                     <div class="w-100 d-none d-md-block"></div>
-                  
-                    <div class="col-6"><a href="./humidity.html"><img src="./assets/images/hum.png" alt="Humidity" class="img-thumbnail"></a></div>
-                    <div class="col-6"><a href="./wind.html"><img src="./assets/images/ws.png" alt="Wind Speed" class="img-thumbnail"></a></div>
+                    <div class="col-6"><a href="./wind.html"><img src="./assets/images/ws.png" alt="Wind Speed" class="img-thumbnail"></a></div>   
+                    <div class="col-6"><a href="./humidity.html"><img src="./assets/images/hum.png" alt="Humidity" class="img-thumbnail"></a></div>                        <div class="col-6"><a href="./wind.html"><img src="./assets/images/ws.png" alt="Wind Speed" class="img-thumbnail"></a></div>
                 </div>
             </div>
         </div>
-          <!-- End of the Visualizations imageNav Area -->
+        
+    </div>
 
-    <!-- End of container -->
 
-    <!-- Optional JavaScript needed for toggling and dropdown -->
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Optional JavaScript needed for toggling and dropdown -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -100,5 +133,4 @@
 
 
 </body>
-
 </html>
